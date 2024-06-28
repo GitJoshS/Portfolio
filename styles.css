@@ -83,7 +83,7 @@ nav .right a span{
     margin-top: 25px;
 }
 
-.hero-section .text .links a{/*When making screen smaller/for smaller devices, need this code to ensure the icon and the text boxes for the links don't break (skills, testimonny, contact)*/
+.hero-section .text .links a{/*When making screen smaller/for smaller devices, need this code to ensure the icon and the text boxes for the links don't break (skills, testimonny, contacts)*/
     display: inline-block;
     padding: 5px 10px;
     border: 2px solid var(--link-colour);
@@ -200,37 +200,38 @@ nav .right a span{
 
 
 
-/*SECTION 4: Contact*/
-.contact-section{
+/*SECTION 4: Contacts
+*/
+.contacts-section{
     padding: 0 50px;
     margin-bottom: 100px;
 }
 
-.contact-section h2{
+.contacts-section h2{
     font-size: 35px;
 }
 
 
-.contact-section .group{
+.contacts-section .group{
     display: flex;
     gap: 50px;
 }
 
-.contact-section .group .text{
+.contacts-section .group .text{
     flex: 3;
     font-size: 25px;
     margin-top: 20px;
 }
 
-.contact-section .group form{
+.contacts-section .group form{
     flex:3;
     display: flex;
     flex-direction: column;
 }
 
-.contact-section .group form input,
+.contacts-section .group form input,
 
-.contact-section .group form textarea{
+.contacts-section .group form textarea{
     font-family: 'Poppins', sans-serif;
     border: 2px solid var(--link-colour);
     background-color: var(--text-colour);
@@ -240,7 +241,7 @@ nav .right a span{
 
     outline: none;
 }
-.contact-section .group form button{
+.contacts-section .group form button{
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     background-color: var(--link-colour);
@@ -249,7 +250,7 @@ nav .right a span{
     cursor: pointer;
     transition: 0.1;
 }
-.contact-section .group form button:hover{
+.contacts-section .group form button:hover{
     filter:brightness(0.8);
 }
 
@@ -283,11 +284,11 @@ nav .right a span{
         flex-direction: column;
     }
 
-    /*SECTION 4: Contact*/
-    .contact-section .group{
+    /*SECTION 4: Contacts*/
+    .contacts-section .group{
         flex-direction: column;
     }
-    .contact-section .group .text{
+    .contacts-section .group .text{
         font-size: 20px;
     }
 
@@ -333,11 +334,11 @@ nav .right a span{
         padding: 0 20px;
     }
 
-    /*SECTION 4: Contact*/
-    .contact-section{
+    /*SECTION 4: Contacts*/
+    .contacts-section{
         padding: 0 20px;
     }
-    .contact-section .group .text{
+    .contacts-section .group .text{
         font-size: 15px;
     }
 

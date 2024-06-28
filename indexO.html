@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel = "stylesheet" href = "styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <!--NavBAR-->
+    <nav>
+        <div class = "left">
+            <a href="/">Joshua Stein</a>
+        </div>
+        
+        <div class = "right">
+            <a href="https://www.linkedin.com/in/joshua-stein-486370316/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIN</span>
+            </a>
+            <a href="mailto:joshms2006@gmail.com//">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+            
+
+        
+        </div>
+
+    </nav>
+
+    <main>
+     <!--Set id ="" in order to make it so that you can click a button on the website that will bring you to that section-->
+     <!--Section 1: Hero-->
+    <section class = "hero-section">
+        <div class="text">
+            <h2 style="color: rgb(229, 229, 229);">Hi, I'm Josh</h2>
+            <p style="color: rgb(136, 136, 136);">
+                I am a 18 year graduate student, going into my first year of University. I enjoy playing basketball, travelling with my family and fishing in my free time. I am a very organized, hardworking, loyal and kind person who loves to get to meet new people.             </p>
+            
+            <div class = "links">
+
+                <a href = "#Skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                </a>
+
+                <a href = "#Education">
+                    <i class="fa-solid fa-school"></i>
+                   <span>Education</span>
+                </a>
+
+                <a href = "#Contacts">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contacts</span>
+                </a>
+
+            </div>
+        </div>
+        
+        <div class = "headshot">
+            <img src = "Web Image/PFN.png" alt = "Josh Stein headshot">
+        </div>
+
+    </section>
+
+     <!--Section 2: Skills-->
+     <section id = "Skills" class ="skills-section">
+            <h2 style = "color: rgb(229, 229, 229);"> Skills</h2>
+            <div class = "text" style="color: rgb(136, 136, 136);">
+                I have experience working with Java for 2 years on object orientated projects in the terminal, networking projects and projects connecting to Arduino hardware and the IDE. I have 1 year of experience working on Python projects and am taking a data and algorithm structures Python course. I will additionally be enrolling in an online C & C++ course in the near future. I have also briefly worked with Matlab and mBlock.
+            <div class = "cells">
+
+                <div class = "cell">
+                    <img src = "Web Image/JV.png"alt="">
+                    <span style="color: rgb(190, 62, 62);">Java</span>
+                </div>
+
+                <div class = "cell">
+                    <img src = "Web Image/PY.png"alt="">
+                    <span style="color: rgb(63, 155, 130);">Python</span>
+                </div>
+
+            </div>
+     </section>
+
+    <!--Section 3: Education-->
+    <section id = "Education" class = "Education-section">
+        <h2 style = "color: rgb(229, 229, 229);">Education</h2>
+
+        <div class = "group">
+            <div class = "person-details">
+                <img src = "Web Image/IMG_2238.jpeg">
+                <p style="color: rgb(239, 239, 239);">TanenbaumChat</p>
+                <p style="color: rgb(255, 255, 255);">2020-2024</p>
+            </div>
+        
+
+            <div class = "text" style="color: rgb(136, 136, 136);">
+                I am very passionate about Computer Science and thoroughly enjoyed the 4 year Computer Engineering/Science course at CHAT. I specifically loved combining all my skills with the final assignment in which I created a multiple choice AI customizable quiz generator combining my Java coding skills while integrating Arduino hardware for a physical game interface.
+        
+                <div class = "text" style="color: rgb(136, 136, 136);">
+
+                    Now, I am pursuing a 5 year double degree in Computer Science at the University of Waterloo and Business Administration at Laurier University.
+                </div>
+
+            </div>
+
+            
+
+        </div>
+
+    </section>
+
+
+     <!--Section 4: Contacts-->
+     <section id = "Contact" class="contact-section">
+        <h2 style = "color: rgb(229, 229, 229);">Contact</h2>
+
+        <div class = "group">
+            <div class = "text" style = "color: rgb(229, 229, 229);">
+                If you have any further inquiries about myself, my experience or generally would like to ask any other questions, please write so in the following available space and I will do my best to respond as quickly as possible. Thank you!            </div>
+
+            
+            <form>
+                <label for="name" style = "color: rgb(136, 136, 136);">Name</label>
+                <input type = "text" id="name" style = "color: rgb(0, 0, 0);" >
+
+                <label for="email" style = "color: rgb(136, 136, 136);">Email</label>
+                <input type = "email" id="email" style = "color: rgb(0, 0, 0);" >
+
+                <label for="message" style = "color: rgb(136, 136, 136);">Message</label>
+                <textarea id="message" cols ="30" rows ="10" style = "color: rgb(0, 0, 0);"></textarea>
+
+                <button type = "submit">Send Message</button>
+
+                
+            </form>"
+
+        
+        </div>
+
+     </section>
+
+    </main>
+
+
+</body>
+</html>
